@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".CreateAccount">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="2dp"
+        android:background="#FFFFFF"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="CREATE ACCOUNT"
+        android:textColor="#008263"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+                android:hint="Full Name"
+                android:textSize="14dp"
+                android:id="@+id/Ac_fullname"
+                android:inputType="text"
+                />
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:hint="Username"
+                android:textSize="14dp"
+                android:id="@+id/Ac_username"
+                android:inputType="text"
+                />
+
+
+
+
+
+
+        <EditText  android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:hint="Password"
+                android:textSize="14dp"
+                android:id="@+id/Ac_password"
+                android:inputType="textPassword"
+                />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                    android:hint="34402"
+                    android:textSize="14dp"
+                    android:maxLength="5"
+                    android:id="@+id/Ac_CnicNo1"
+                    android:inputType="number"
+                    />
+
+
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                    android:hint="02648098"
+                    android:textSize="14dp"
+                    android:maxLength="7"
+                    android:id="@+id/Ac_CnicNo2"
+                    android:inputType="number"
+                    />
+
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                    android:hint="0"
+                    android:textSize="14dp"
+                    android:maxLength="1"
+
+                    android:id="@+id/Ac_CnicNo3"
+                    android:inputType="number"
+                    />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+                android:hint="License No"
+                android:textSize="14dp"
+                android:id="@+id/Ac_license"
+                android:inputType="text"
+
+
+                />
+       
+
+
+
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contact No"
+                android:textSize="14dp"
+                android:id="@+id/Ac_contactNo"
+                android:inputType="phone"
+
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address"
+                android:textSize="14dp"
+                android:id="@+id/Ac_address"
+                android:inputType="text"
+
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:onClick="signup_page"
+            android:layout_marginTop="15dp"
+            android:textColor="#ffffff"
+            android:background="#008263"
+            android:textSize="10dp"
+            android:text="Create Account" />
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
